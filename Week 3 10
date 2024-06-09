@@ -1,0 +1,15 @@
+n1=float(input())
+if(n1<=199):
+    a=(n1*1.20)
+elif(n1>=200 and n1<400):
+    a=(n1*1.50)
+elif(n1>=400 and n1<600):
+    a=(n1*1.80)
+elif(n1>=600):
+    a=(n1*2.00)
+if(a<100):
+    print("{:.2f}".format(100))
+elif(a>400):
+    print("{:.2f}".format(a+(a*(0.15))))
+else:
+    print("{:.2f}".format(a))
