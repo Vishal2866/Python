@@ -1,0 +1,3 @@
+t=int(input())
+k=abs(t)%10
+print(k)
