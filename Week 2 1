@@ -1,0 +1,6 @@
+n=int(input())
+t=int(input())
+p=n*75
+q=t*112
+s=p+q
+print("The total weight of all these widgets and gizmos is",s,"grams.")
