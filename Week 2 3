@@ -1,0 +1,7 @@
+meal=int(input())
+tax=0.05
+tip=0.18
+tax_amount=meal*tax
+tip_amount=meal*tip
+total=meal+tax_amount+tip_amount
+print(f"The tax is {tax_amount:.2f} and the tip is {tip_amount:.2f}, making the total {total:.2f}")
