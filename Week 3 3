@@ -1,3 +1,9 @@
-t=int(input())
-k=abs(t)%10
-print(k)
+n1=int(input())
+n2=int(input())
+n3=int(input())
+if((n1==n2)and(n1==n3)):
+    print("That's a equilateral triangle")
+elif(((n1==n2)and(n2!=n3))or((n2==n3)and(n1!=n2))or((n1==n3)and(n2!=n3))):
+    print("That's a isosceles triangle")
+else:
+    print("That's a scalene triangle")
