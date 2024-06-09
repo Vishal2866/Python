@@ -1,0 +1,8 @@
+n=int(input())
+if n!=0 and n<=100:
+    if n%2==0:
+        print("True")
+    else:
+        print("False")
+else:
+    print("False")
