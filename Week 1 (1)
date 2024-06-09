@@ -1,0 +1,6 @@
+n1=input()
+n2=input()
+num1=int(n1)
+num2=float(n2)
+print("{},{}".format(round(num1,1),type(num1)))
+print("{},{}".format(round(num2,1),type(num2)))
