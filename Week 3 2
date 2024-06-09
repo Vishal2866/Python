@@ -1,5 +1,7 @@
-initial_balance = float(input())
-
-for year in range(1, 4):
-    balance = initial_balance * (1 + 0.04) ** year
-    print(f"Balance as of end of Year {year}: ${balance:.2f}.")
+n1=int(input())
+n2=int(input())
+half=n1/2
+if(half<=n2):
+    print("IN")
+else:
+    print("OUT")
