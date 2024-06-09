@@ -1,11 +1,8 @@
-num_friends = int(input())
-chocolates_list = [int(input()) for _ in range(4)]
-
-result = []
-for chocolates in chocolates_list:
-    if chocolates % num_friends == 0:
-        result.append("True")
-    else:
-        result.append("False")
-
-print(*result)
+n1=int(input())
+n2=int(input())
+n3=int(input())
+tot=n1+n2+n3
+if(tot>=180):
+    print("The candidate is eligible")
+else:
+    print("The candidate is not eligible")
